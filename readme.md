@@ -11,7 +11,7 @@ This is a guide for JavaScript & Node.js reliability from A-Z. It summarizes and
 
 
 ## 🚢 Advanced: Goes 10,000 miles beyond the basics
-Hop into a journey that travells way beyond the basics into advanced topics like testing in production, mutation testing, property-based testing and many other strategic & professional tools. Should you read every word in this guide your testing skills are likely to go way above the average
+Hop into a journey that travels way beyond the basics into advanced topics like testing in production, mutation testing, property-based testing and many other strategic & professional tools. Should you read every word in this guide your testing skills are likely to go way above the average
 
 
 ## 🌐 Full-stack: front, backend, CI, anything
@@ -52,7 +52,7 @@ Watching the watchman - measuring test quality (4 bullets)
 
 * ### `Section 5: Continous Integration`
 
-Guideliness for CI in the JS world (9 bullets)
+Guidelines for CI in the JS world (9 bullets)
 
 
 <br/><br/>
@@ -69,7 +69,7 @@ Testing code is not like production-code - design it to be dead-simple, short, a
 
 Our minds are full with the main production code, we don't have 'headspace' for additional complexity. Should we try to squeeze yet another challenging code into our poor brain it will slow the team down which works against the reason we do testing. Practically this is where many teams just abandon testing.
  
-The tests are an opportunity for something else - a friendly and smiley assistant, one that it's delightful to work with and delivers great value for such a  small investment.  Science tells we have two brain systems: system 2 which is used for effortless activities like driving a car on an empty road and system 1 which is meant for complex and conscious operations like solving a math equation. Design your test for system 2, when looking at test code it should *feel* as easy as modifying an HTML document and not like solving 2X(17 × 24).
+The tests are an opportunity for something else - a friendly and smiley assistant, one that is delightful to work with and delivers great value for such a  small investment.  Science tells we have two brain systems: system 2 which is used for effortless activities like driving a car on an empty road and system 1 which is meant for complex and conscious operations like solving a math equation. Design your test for system 2, when looking at test code it should *feel* as easy as modifying an HTML document and not like solving 2X(17 × 24).
 
 This can be achieved by selectively cherry-picking techniques, tools and test targets that are cost-effective and provide great ROI. Test only as much as needed, strive to keep it nimble, sometimes it's even worth dropping some tests and trade reliability for agility and simplicity.
 
@@ -103,7 +103,7 @@ Most of the advice below are derivatives of this principle.
 
 <br/>
 
-**👇 Note:** Each bullet has code examples and sometime also an image illustration. Click to expand
+**👇 Note:** Each bullet has code examples and sometimes also an image illustration. Click to expand
 <details><summary>✏ <b>Code Examples</b></summary>
   
 <br/>
@@ -154,7 +154,7 @@ describe('Products Service', function() {
 
 <br/>
 
-### :clap: Doing It Right Example: A test strcutured with the AAA pattern
+### :clap: Doing It Right Example: A test structured with the AAA pattern
 
 ```javascript
 describe.skip('Customer classifier', () => {
